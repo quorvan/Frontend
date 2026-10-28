@@ -1,0 +1,14 @@
+{
+  "name": "quorvan_Frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Digital marketing site",
+  "scripts": {
+    "dev": "serve -l 8765 .",
+    "start": "serve -l 8765 .",
+    "build": "node scripts/build-dist.js"
+  },
+  "devDependencies": {
+    "serve": "^14.2.5"
+  }
+}

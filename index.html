@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quorvan</title>
+  <meta name="description" content="Quorvan is an AI inference routing and performance workspace for teams that register model-serving endpoints, configure routing policies, and review latency, throughput, and reliability.">
+  <meta name="theme-color" content="#191919">
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=69">
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-left">
+        <a class="topbar-mail" href="mailto:hello@quorvan.net">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 6.5h16v11H4v-11Z" stroke="currentColor" stroke-width="1.8"/><path d="m4.5 7 7.5 6 7.5-6" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          hello@quorvan.net
+        </a>
+      </div>
+      <div class="topbar-social">
+        <a href="#" aria-label="Facebook"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14.5 9H17V6h-2.5C11.6 6 11 7.8 11 9.4V11H9v3h2v7h3v-7h2.2l.8-3H14v-1.2c0-.5.2-.8.5-.8Z"/></svg></a>
+        <a href="#" aria-label="X"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14.7 4h2.8l-6.1 7 7.2 9h-5.6l-4.4-5.7L6.2 20H3.4l6.5-7.5L3 4h5.7l4 5.2L14.7 4Zm-1 14.4h1.5L8.4 5.5H6.8l6.9 12.9Z"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="3.4" stroke="currentColor" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="0.9" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="LinkedIn"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.7 9.2H4V20h2.7V9.2ZM5.3 4A1.6 1.6 0 1 0 5.3 7.2 1.6 1.6 0 0 0 5.3 4ZM20 20h-2.7v-5.6c0-1.6-.6-2.6-2-2.6-1 0-1.6.7-1.9 1.4-.1.2-.1.6-.1.9V20H10.6s.1-9.3 0-10.8h2.7v1.5c.4-.6 1.2-1.8 3.1-1.8 2.2 0 3.6 1.4 3.6 4.5V20Z"/></svg></a>
+      </div>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html"><img src="images/logo.png" alt="Quorvan"></a>
+      <nav class="nav" aria-label="Primary">
+        <a class="active" href="index.html" data-section="home" aria-current="true">Home</a>
+        <a href="about.html" data-section="about">About</a>
+        <a href="services.html" data-section="services">Platform</a>
+        <a href="projects.html" data-section="work">Use Cases</a>
+        <a href="pricing.html" data-section="pricing">Plans</a>
+        <a class="btn btn-green btn-sm" href="product.html">Quorin X.1</a>
+      </nav>
+      <a class="btn btn-green btn-sm" href="product.html">Quorin X.1</a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div>
+          <p class="kicker">
+            <span class="kicker-ico" aria-hidden="true">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M4 16.5 9 11l3.2 3.2L20 6.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 6.5h6v6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            Inference Routing
+          </p>
+          <h1>Manage Model Routing.<br>Understand Inference Performance.</h1>
+          <p class="lead">Quorvan helps AI infrastructure teams manage model routing and analyze inference performance through a centralized platform.</p>
+          <div class="hero-actions">
+            <a class="btn btn-green" href="product.html">Quorin X.1
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a class="btn btn-line" href="#contact-form">Discuss Your Requirements
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="hero-bento">
+          <div class="bento-photo">
+            <img src="images/hero-team.jpg" alt="Team reviewing a workflow on a whiteboard">
+            <span class="bento-badge" aria-hidden="true"><span><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 19V10M10 19V5M15 19v-7M20 19V8" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></span></span>
+          </div>
+          <div class="bento-stat">
+            <div>
+              <strong>One</strong>
+              <p>Workspace for endpoints, policies, and performance records</p>
+            </div>
+            <div class="bento-faces">
+              <img src="images/review-3.jpg" alt="">
+              <img src="images/review-2.jpg" alt="">
+              <img src="images/review-1.jpg" alt="">
+              <img src="images/review-4.jpg" alt="">
+              <span class="bento-more" aria-hidden="true">+</span>
+            </div>
+          </div>
+          <a class="bento-wide" href="services.html">
+            <div class="bento-copy">
+              <h2>A clear record of inference <span>performance</span></h2>
+              <p>Endpoints, routing rules, and workload metrics organized for operational review.</p>
+            </div>
+            <img src="images/hero-desk.jpg" alt="Colleagues reviewing performance charts on a laptop">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <div class="marquee-group">
+          <span>Inference Routing</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+          <span>Endpoint Registry</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+          <span>Routing Policies</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+          <span>Latency Review</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+          <span>Throughput</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+          <span>Error Rates</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+        </div>
+        <div class="marquee-group">
+          <span>Inference Routing</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+          <span>Endpoint Registry</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+          <span>Routing Policies</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+          <span>Latency Review</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+          <span>Throughput</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+          <span>Error Rates</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+        </div>
+      </div>
+    </div>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="section-head center">
+          <p class="kicker">
+            <span class="kicker-ico" aria-hidden="true">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M4 16.5 9 11l3.2 3.2L20 6.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 6.5h6v6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            The Challenge
+          </p>
+          <h2>Scattered Endpoints Obscure Inference Performance</h2>
+        </div>
+        <div class="about-grid">
+          <div class="photos">
+            <img src="images/problem-1.jpg" alt="Two colleagues reviewing work together at a laptop">
+            <img src="images/problem-2.jpg" alt="A team reviewing a model routing plan on a whiteboard">
+            <div class="seal seal-about" aria-hidden="true">
+              <svg viewBox="0 0 160 160">
+                <circle cx="80" cy="80" r="78" fill="#BB080B"/>
+                <circle cx="80" cy="80" r="68" fill="none" stroke="#F0EDE8" stroke-width="1.4"/>
+                <defs>
+                  <path id="sealRingAbout" d="M80 80m-54 0a54 54 0 1 1 108 0a54 54 0 1 1-108 0"/>
+                </defs>
+                <text fill="#F0EDE8" font-size="11" font-weight="700" letter-spacing="2.4" font-family="Plus Jakarta Sans, Segoe UI, sans-serif">
+                  <textPath href="#sealRingAbout">ENDPOINTS · POLICIES · METRICS · </textPath>
+                </text>
+                <text x="80" y="96" text-anchor="middle" fill="#F0EDE8" font-size="44" font-weight="500" font-family="Plus Jakarta Sans, Segoe UI, sans-serif">+</text>
+              </svg>
+            </div>
+          </div>
+          <div class="about-copy">
+            <p class="lead">Quorvan centralizes model endpoints, routing policies, and performance data to simplify the analysis of latency, throughput, and reliability.</p>
+            <div class="skills">
+              <div class="skill">
+                <div class="skill-top"><span>Endpoint records</span><span>85%</span></div>
+                <div class="skill-track"><div class="skill-fill" style="width:85%"><i></i></div></div>
+              </div>
+              <div class="skill">
+                <div class="skill-top"><span>Routing policies</span><span>80%</span></div>
+                <div class="skill-track"><div class="skill-fill" style="width:80%"><i></i></div></div>
+              </div>
+              <div class="skill">
+                <div class="skill-top"><span>Performance reviews</span><span>95%</span></div>
+                <div class="skill-track"><div class="skill-fill" style="width:95%"><i></i></div></div>
+              </div>
+            </div>
+            <a class="btn btn-green" href="about.html">About Quorvan
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="stats">
+          <div class="stat"><b>01</b><small>Endpoints</small></div>
+          <span class="stat-sep" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M9 6.5 14.5 12 9 17.5" stroke="#F0EDE8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <div class="stat"><b>02</b><small>Policies</small></div>
+          <span class="stat-sep" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M9 6.5 14.5 12 9 17.5" stroke="#F0EDE8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <div class="stat"><b>03</b><small>Metrics</small></div>
+          <span class="stat-sep" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M9 6.5 14.5 12 9 17.5" stroke="#F0EDE8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <div class="stat"><b>04</b><small>Reviews</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="container">
+        <div class="svc-head">
+          <div>
+            <p class="kicker">
+              <span class="kicker-ico" aria-hidden="true">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M4 16.5 9 11l3.2 3.2L20 6.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 6.5h6v6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              Platform Capabilities
+            </p>
+            <h2>Endpoints, Policies, and Performance</h2>
+          </div>
+        </div>
+        <div class="svc-grid">
+          <article class="svc-card">
+            <img src="images/platform-endpoints.jpg" alt="Team reviewing endpoint status across operations screens">
+            <h3>Endpoint Management</h3>
+            <p>Organize model identifiers, serving environments, endpoint details, and status records.</p>
+            <button type="button" class="more capability-open" data-panel="capability-endpoints" data-title="Endpoint Management" data-tag="Endpoints" data-image="images/platform-endpoints-hd.jpg" data-image-alt="Team reviewing endpoint status across operations screens" data-summary="Organize model identifiers, serving environments, endpoint details, and status records.">Learn more
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </article>
+          <article class="svc-card featured">
+            <h3>Routing Policies</h3>
+            <p>Manage routing criteria, endpoint priorities, fallback preferences, and policy versions.</p>
+            <button type="button" class="more capability-open" data-panel="capability-routing" data-title="Routing Policies" data-tag="Routing" data-image="images/platform-routing-hd.jpg" data-image-alt="Team reviewing a call routing plan on a whiteboard" data-summary="Manage routing criteria, endpoint priorities, fallback preferences, and policy versions.">Learn more
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <img src="images/platform-routing.jpg" alt="Team reviewing a call routing plan on a whiteboard">
+          </article>
+          <article class="svc-card">
+            <img src="images/platform-metrics.jpg" alt="Team reviewing performance charts on a large display">
+            <h3>Performance Metrics</h3>
+            <p>Review latency, throughput, request volume, and error rates across endpoints.</p>
+            <button type="button" class="more capability-open" data-panel="capability-metrics" data-title="Performance Metrics" data-tag="Metrics" data-image="images/platform-metrics-hd.jpg" data-image-alt="Team reviewing performance charts on a large display" data-summary="Review latency, throughput, request volume, and error rates across endpoints.">Learn more
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section why" id="why">
+      <div class="container">
+        <div class="section-head center">
+          <p class="chip"><i></i>Why Quorvan</p>
+          <h2>A Clearer View of Inference Operations</h2>
+          <p class="lead">Bring configuration records and performance evidence together to simplify technical reviews and support informed infrastructure decisions.</p>
+        </div>
+        <div class="why-grid">
+          <div class="why-photos">
+            <img src="images/why-1.jpg" alt="Analyst reviewing performance charts on a laptop">
+            <img src="images/why-2.jpg" alt="Two colleagues reviewing metrics on a desktop display">
+            <div class="why-badge" aria-hidden="true">
+              <svg viewBox="0 0 160 160">
+                <circle cx="80" cy="80" r="78" fill="#BB080B"/>
+                <defs>
+                  <path id="whyRing" d="M80,80 m-54,0 a54,54 0 1,1 108,0 a54,54 0 1,1 -108,0"/>
+                </defs>
+                <text fill="#F0EDE8" font-size="11" font-weight="800" letter-spacing="2.2" font-family="Plus Jakarta Sans, Segoe UI, sans-serif">
+                  <textPath href="#whyRing">QUORVAN · ROUTING · QUORVAN ·</textPath>
+                </text>
+                <text x="80" y="88" text-anchor="middle" fill="#F0EDE8" font-size="28" font-weight="800" font-family="Plus Jakarta Sans, Segoe UI, sans-serif">QV</text>
+              </svg>
+            </div>
+            <span class="why-spark a" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg></span>
+            <span class="why-spark b" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg></span>
+          </div>
+          <div class="why-cards">
+            <article class="why-card">
+              <span class="why-ico" aria-hidden="true"><img src="images/why-ico-1.png" alt=""></span>
+              <h3>Unified Visibility</h3>
+              <p>Access organized endpoint and performance information without relying on scattered records.</p>
+            </article>
+            <article class="why-card">
+              <span class="why-ico" aria-hidden="true"><img src="images/why-ico-2.png" alt=""></span>
+              <h3>Traceable Changes</h3>
+              <p>Keep configuration updates documented for easier review and accountability.</p>
+            </article>
+            <article class="why-card">
+              <span class="why-ico" aria-hidden="true"><img src="images/why-ico-3.png" alt=""></span>
+              <h3>Evidence-Based Analysis</h3>
+              <p>Use available performance measurements to investigate variations and identify potential bottlenecks.</p>
+            </article>
+            <article class="why-card">
+              <span class="why-ico" aria-hidden="true"><img src="images/why-ico-4.png" alt=""></span>
+              <h3>Structured Decision-Making</h3>
+              <p>Document findings and optimization proposals to support consistent operational reviews.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <div class="marquee-group">
+          <span>Endpoint Registry</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+          <span>Routing Policies</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+          <span>Latency Review</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+          <span>Throughput</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+          <span>Error Rates</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+        </div>
+        <div class="marquee-group">
+          <span>Endpoint Registry</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+          <span>Routing Policies</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+          <span>Latency Review</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+          <span>Throughput</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+          <span>Error Rates</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+        </div>
+      </div>
+    </div>
+
+    <section class="section process" id="process">
+      <div class="process-watermark" aria-hidden="true"><span>01</span><span>02</span><span>03</span></div>
+      <div class="container">
+        <div class="process-head">
+          <div>
+            <p class="chip"><i></i>Operational Workflow</p>
+            <h2>From Endpoint Setup to Performance Review</h2>
+          </div>
+          <p>Follow a structured workflow to manage endpoint configurations, evaluate available performance data, and document technical findings.</p>
+        </div>
+        <div class="process-grid">
+          <article class="step-card">
+            <h3>Register &amp; Configure</h3>
+            <p>Maintain model-serving endpoints, environment details, and routing policy settings.</p>
+            <div class="step-foot"><span class="step-pill">STEP</span><span class="step-num">01</span></div>
+          </article>
+          <article class="step-card">
+            <h3>Evaluate Performance</h3>
+            <p>Examine available latency, throughput, and error-rate measurements to identify areas for investigation.</p>
+            <div class="step-foot"><span class="step-pill">STEP</span><span class="step-num">02</span></div>
+          </article>
+          <article class="step-card">
+            <h3>Review &amp; Optimize</h3>
+            <p>Document performance findings, compare historical results, and record proposed optimization changes.</p>
+            <div class="step-foot"><span class="step-pill">STEP</span><span class="step-num">03</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <div class="marquee-group">
+          <span>Endpoint Registry</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+          <span>Routing Policies</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+          <span>Latency Review</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+          <span>Throughput</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+          <span>Error Rates</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+        </div>
+        <div class="marquee-group">
+          <span>Endpoint Registry</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+          <span>Routing Policies</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+          <span>Latency Review</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+          <span>Throughput</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+          <span>Error Rates</span>
+          <svg class="star" viewBox="0 0 24 24"><path fill="#F0EDE8" d="M12 0l1.7 8.3L22 12l-8.3 1.7L12 22l-1.7-8.3L2 12l8.3-1.7z"/></svg>
+        </div>
+      </div>
+    </div>
+
+    <section class="section folio" id="work">
+      <div class="container">
+        <div class="section-head center">
+          <p class="chip"><i></i>Inference Use Cases</p>
+          <h2>Built for Real-World Inference Challenges</h2>
+        </div>
+        <div class="folio-grid">
+          <article class="folio-card">
+            <div class="folio-shot">
+              <img src="images/use-1.png?v=5" alt="Throughput evaluation for a serving fleet of endpoints">
+              <span class="folio-tag">Endpoints</span>
+            </div>
+            <div class="folio-row">
+              <h3>Multi-Endpoint Management</h3>
+              <button type="button" class="folio-go" aria-label="Open Multi-Endpoint Management" data-panel="usecase-endpoints" data-title="Multi-Endpoint Management" data-tag="Endpoints" data-image="images/use-1.png?v=5" data-image-alt="Throughput evaluation for a serving fleet of endpoints" data-summary="Organize model-serving endpoints across models and environments for clearer infrastructure oversight.">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </div>
+            <p class="folio-desc">Organize model-serving endpoints across models and environments for clearer infrastructure oversight.</p>
+          </article>
+          <article class="folio-card">
+            <div class="folio-shot">
+              <img src="images/use-2.png?v=5" alt="Request mix and workload visibility across serving endpoints">
+              <span class="folio-tag">Routing</span>
+            </div>
+            <div class="folio-row">
+              <h3>Routing Policy Coordination</h3>
+              <button type="button" class="folio-go" aria-label="Open Routing Policy Coordination" data-panel="usecase-routing" data-title="Routing Policy Coordination" data-tag="Routing" data-image="images/use-2.png?v=5" data-image-alt="Request mix and workload visibility across serving endpoints" data-summary="Maintain routing rules, endpoint priorities, and fallback preferences across serving workloads.">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </div>
+            <p class="folio-desc">Maintain routing rules, endpoint priorities, and fallback preferences across serving workloads.</p>
+          </article>
+          <article class="folio-card">
+            <div class="folio-shot">
+              <img src="images/use-3.png?v=5" alt="Side-by-side comparison of model latency, throughput, and error rate">
+              <span class="folio-tag">Analysis</span>
+            </div>
+            <div class="folio-row">
+              <h3>Performance Bottleneck Analysis</h3>
+              <button type="button" class="folio-go" aria-label="Open Performance Bottleneck Analysis" data-panel="usecase-analysis" data-title="Performance Bottleneck Analysis" data-tag="Analysis" data-image="images/use-3.png?v=5" data-image-alt="Side-by-side comparison of model latency, throughput, and error rate" data-summary="Compare available performance measurements to identify variations and areas requiring investigation.">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </div>
+            <p class="folio-desc">Compare available performance measurements to identify variations and areas requiring investigation.</p>
+          </article>
+          <article class="folio-card">
+            <div class="folio-shot">
+              <img src="images/use-4.png?v=5" alt="Latency analysis across endpoints over a reporting period">
+              <span class="folio-tag">History</span>
+            </div>
+            <div class="folio-row">
+              <h3>Historical Performance Evaluation</h3>
+              <button type="button" class="folio-go" aria-label="Open Historical Performance Evaluation" data-panel="usecase-history" data-title="Historical Performance Evaluation" data-tag="History" data-image="images/use-4.png?v=5" data-image-alt="Latency analysis across endpoints over a reporting period" data-summary="Review recorded measurements across reporting periods to support technical assessments and optimization planning.">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </div>
+            <p class="folio-desc">Review recorded measurements across reporting periods to support technical assessments and optimization planning.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="nvidia">
+      <div class="container">
+        <div class="section-head center">
+          <p class="chip"><i></i>Technology Context</p>
+          <h2>Inference Technologies Teams Plan Around</h2>
+          <p class="lead">Quorvan helps teams understand model-serving configurations, organize inference routing, and evaluate performance across AI workloads.</p>
+        </div>
+        <div class="process-grid">
+          <article class="step-card">
+            <h3>Request Routing</h3>
+            <p>Manage routing criteria, endpoint priorities, and fallback strategies.</p>
+            <div class="step-foot"><span class="step-pill">FIELD</span><span class="step-num">01</span></div>
+          </article>
+          <article class="step-card">
+            <h3>Model Serving</h3>
+            <p>Understand model deployment configurations and serving environments.</p>
+            <div class="step-foot"><span class="step-pill">FIELD</span><span class="step-num">02</span></div>
+          </article>
+          <article class="step-card">
+            <h3>Performance Optimization</h3>
+            <p>Evaluate latency, throughput, and workload metrics to identify bottlenecks.</p>
+            <div class="step-foot"><span class="step-pill">FIELD</span><span class="step-num">03</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gov" id="governance">
+      <div class="container gov-layout">
+        <div class="section-head">
+          <p class="chip"><i></i>Governance</p>
+          <h2>Security and Operational Records</h2>
+        </div>
+        <ol class="gov-list">
+          <li>
+            <span>01</span>
+            <div>
+              <h3>Team Access</h3>
+              <p>Workspaces can separate who registers endpoints, who edits a routing policy, and who reads a report.</p>
+            </div>
+          </li>
+          <li>
+            <span>02</span>
+            <div>
+              <h3>Configuration History</h3>
+              <p>Policy and endpoint changes stay on record so a later review can see what was different.</p>
+            </div>
+          </li>
+          <li>
+            <span>03</span>
+            <div>
+              <h3>Review Notes</h3>
+              <p>Performance reviews sit beside the configuration they refer to, instead of in a separate thread.</p>
+            </div>
+          </li>
+          <li>
+            <span>04</span>
+            <div>
+              <h3>Enterprise Controls</h3>
+              <p>Higher plans add tighter access, audit history, and support for an operational planning review.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="awards" id="awards">
+      <div class="container awards-inner">
+        <div>
+          <p class="chip"><i></i>Platform Focus</p>
+          <h2>Records That Support an Operational Review</h2>
+        </div>
+        <div class="award-mark">
+          <svg class="laurel" viewBox="0 0 70 120" fill="none" aria-hidden="true">
+            <path d="M44 8c1 22 0 46-2 70-.6 16 .8 30 4 44" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+            <path d="M42 20c-14 2-20 9-17 15 7-5 13-7 17-6z" fill="currentColor"/>
+            <path d="M40 36c-16 3-22 11-18 17 8-5 14-7 18-6z" fill="currentColor"/>
+            <path d="M39 54c-16 3-21 12-16 18 8-5 14-7 17-6z" fill="currentColor"/>
+            <path d="M40 72c-14 3-18 11-13 16 7-4 12-6 14-5z" fill="currentColor"/>
+            <path d="M43 88c-12 3-15 10-10 14 6-3 10-5 12-4z" fill="currentColor"/>
+            <path d="M46 104c-9 2-11 8-7 11 5-2 8-4 9-3z" fill="currentColor"/>
+          </svg>
+          <div>
+            <small>Quorvan</small>
+            <strong>Inference Routing</strong>
+            <span class="award-year">Core</span>
+          </div>
+          <svg class="laurel flip" viewBox="0 0 70 120" fill="none" aria-hidden="true">
+            <path d="M44 8c1 22 0 46-2 70-.6 16 .8 30 4 44" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+            <path d="M42 20c-14 2-20 9-17 15 7-5 13-7 17-6z" fill="currentColor"/>
+            <path d="M40 36c-16 3-22 11-18 17 8-5 14-7 18-6z" fill="currentColor"/>
+            <path d="M39 54c-16 3-21 12-16 18 8-5 14-7 17-6z" fill="currentColor"/>
+            <path d="M40 72c-14 3-18 11-13 16 7-4 12-6 14-5z" fill="currentColor"/>
+            <path d="M43 88c-12 3-15 10-10 14 6-3 10-5 12-4z" fill="currentColor"/>
+            <path d="M46 104c-9 2-11 8-7 11 5-2 8-4 9-3z" fill="currentColor"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reviews" id="reviews">
+      <div class="container">
+        <p class="chip"><i></i>Platform Focus</p>
+        <h2 class="reviews-title">Built for the Teams Who Run Model Serving</h2>
+        <div class="review-grid">
+          <article class="review-card">
+            <img class="review-photo" src="images/review-3.jpg" alt="Shenali de Silva">
+            <div class="review-head">
+              <strong>Infrastructure Engineer</strong>
+              <span>01 · Shenali de Silva</span>
+            </div>
+            <div class="review-body">
+              <div class="review-copy">
+                <h3>Endpoint Operations</h3>
+                <p>Organizes serving endpoints, deployment environments, and endpoint status records in one workspace.</p>
+              </div>
+            </div>
+          </article>
+          <article class="review-card">
+            <img class="review-photo" src="images/review-2.jpg" alt="Ravindu Madushan">
+            <div class="review-head">
+              <strong>MLOps Lead</strong>
+              <span>02 · Ravindu Madushan</span>
+            </div>
+            <div class="review-body">
+              <div class="review-copy">
+                <h3>Workload Routing</h3>
+                <p>Maintains routing policies based on endpoint priorities, workload requirements, and configured criteria.</p>
+              </div>
+            </div>
+          </article>
+          <article class="review-card">
+            <img class="review-photo" src="images/review-1.jpg" alt="Hannah Foster">
+            <div class="review-head">
+              <strong>Platform Administrator</strong>
+              <span>03 · Hannah Foster</span>
+            </div>
+            <div class="review-body">
+              <div class="review-copy">
+                <h3>Operational Governance</h3>
+                <p>Manages user access and oversees configuration records and administrative activities.</p>
+              </div>
+            </div>
+          </article>
+          <article class="review-card">
+            <img class="review-photo" src="images/review-4.jpg" alt="Lucas Hayes">
+            <div class="review-head">
+              <strong>Performance Engineer</strong>
+              <span>04 · Lucas Hayes</span>
+            </div>
+            <div class="review-body">
+              <div class="review-copy">
+                <h3>Latency and Throughput</h3>
+                <p>Compares available latency, throughput, and error-rate measurements across endpoints and workloads.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section live-demo" id="live-demo">
+      <div class="container">
+        <div class="section-head center">
+          <p class="chip"><i></i>Live Demo</p>
+          <h2>A Routing Decision From Live Provider Status</h2>
+          <p class="lead">This page reads four public inference-provider status APIs and measures the round trip from your browser. The preferred target is the operational endpoint with the lowest latency.</p>
+        </div>
+        <div class="live-board" data-live-demo>
+          <div class="live-top">
+            <div class="live-brand">
+              <p class="live-live"><span class="live-dot" data-live-dot></span>Live</p>
+              <div>
+                <p class="live-kicker">Preferred route</p>
+                <p class="live-pick" data-live-pick>Checking endpoints</p>
+              </div>
+            </div>
+            <div class="live-side">
+              <p class="live-meta" data-live-updated>Waiting for the first reading</p>
+              <button type="button" class="live-refresh" data-live-refresh>Refresh</button>
+            </div>
+          </div>
+          <div class="live-console">
+            <div class="live-route" aria-hidden="true">
+              <div class="live-node">
+                <span>Browser</span>
+                <small>This page</small>
+              </div>
+              <span class="live-wire"></span>
+              <div class="live-node live-node-hub">
+                <span>Q</span>
+                <small>Route</small>
+              </div>
+              <span class="live-wire"></span>
+              <div class="live-node live-node-dest">
+                <span data-live-dest>—</span>
+                <small>Preferred</small>
+              </div>
+            </div>
+            <div class="live-stats">
+              <p><b data-live-probed>4</b><span>Endpoints</span></p>
+              <p><b data-live-healthy>—</b><span>Operational</span></p>
+              <p><b data-live-fastest>—</b><span>Fastest</span></p>
+            </div>
+            <div class="live-rows" role="list">
+              <article class="live-card" role="listitem" data-live-url="https://status.openai.com/api/v2/status.json">
+                <div class="live-card-top">
+                  <span class="live-index">01</span>
+                  <span class="live-flag">Selected</span>
+                </div>
+                <h3>OpenAI</h3>
+                <p class="live-host">status.openai.com</p>
+                <p class="live-state" data-live-state>Checking</p>
+                <div class="live-meter" aria-hidden="true"><span data-live-bar></span></div>
+                <p class="live-ms" data-live-ms>—</p>
+              </article>
+              <article class="live-card" role="listitem" data-live-url="https://status.claude.com/api/v2/status.json">
+                <div class="live-card-top">
+                  <span class="live-index">02</span>
+                  <span class="live-flag">Selected</span>
+                </div>
+                <h3>Claude</h3>
+                <p class="live-host">status.claude.com</p>
+                <p class="live-state" data-live-state>Checking</p>
+                <div class="live-meter" aria-hidden="true"><span data-live-bar></span></div>
+                <p class="live-ms" data-live-ms>—</p>
+              </article>
+              <article class="live-card" role="listitem" data-live-url="https://status.cohere.com/api/v2/status.json">
+                <div class="live-card-top">
+                  <span class="live-index">03</span>
+                  <span class="live-flag">Selected</span>
+                </div>
+                <h3>Cohere</h3>
+                <p class="live-host">status.cohere.com</p>
+                <p class="live-state" data-live-state>Checking</p>
+                <div class="live-meter" aria-hidden="true"><span data-live-bar></span></div>
+                <p class="live-ms" data-live-ms>—</p>
+              </article>
+              <article class="live-card" role="listitem" data-live-url="https://status.fireworks.ai/api/v2/status.json">
+                <div class="live-card-top">
+                  <span class="live-index">04</span>
+                  <span class="live-flag">Selected</span>
+                </div>
+                <h3>Fireworks</h3>
+                <p class="live-host">status.fireworks.ai</p>
+                <p class="live-state" data-live-state>Checking</p>
+                <div class="live-meter" aria-hidden="true"><span data-live-bar></span></div>
+                <p class="live-ms" data-live-ms>—</p>
+              </article>
+            </div>
+          </div>
+          <p class="live-note">Status comes from each provider’s public status page. Latency is how long this browser waited for that response.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section home-pricing" id="pricing">
+      <div class="container">
+        <div class="plans-head">
+          <p class="plans-kicker">Subscription Plans</p>
+          <h2>Plans Shaped by Users, Endpoints, and Reporting</h2>
+        </div>
+        <div class="price-grid">
+          <article class="price-card">
+            <div class="price-top">
+              <span class="price-badge">Starter</span>
+              <span class="price-ico" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20 12a8 8 0 0 1-13.7 5.6L4 16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 20v-4h4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 12a8 8 0 0 1 13.7-5.6L20 8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 4v4h-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </div>
+            <div class="amount">$99 <span>/mo</span></div>
+            <p class="price-desc">A small team registering a limited set of model-serving endpoints.</p>
+            <a class="price-cta" href="https://buy.stripe.com/test_00wdR9dq7cyR5Kc7LMgrS00" target="_blank" rel="noopener noreferrer">Subscribe <span class="price-cta-ico" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+            <ul>
+              <li><span class="price-check" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="m5 12.5 4.2 4.2L19 7.5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Endpoint registry</li>
+              <li><span class="price-check" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="m5 12.5 4.2 4.2L19 7.5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Routing policy records</li>
+              <li><span class="price-check" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="m5 12.5 4.2 4.2L19 7.5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Core performance summary</li>
+              <li><span class="price-check" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="m5 12.5 4.2 4.2L19 7.5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Inquiry support</li>
+            </ul>
+          </article>
+          <article class="price-card featured">
+            <div class="price-top">
+              <span class="price-badge">Growth</span>
+              <span class="price-ico" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 18h6M10 21h4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M12 3a6 6 0 0 0-3.2 11.1c.5.4.8 1 .8 1.6V17h5v-1.3c0-.6.3-1.2.8-1.6A6 6 0 0 0 12 3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+            </div>
+            <div class="amount">$199 <span>/mo</span></div>
+            <p class="price-desc">The shared workspace for routing history, comparison, and more endpoints.</p>
+            <a class="price-cta" href="https://buy.stripe.com/test_8x200jcm3eGZgoQ2rsgrS01" target="_blank" rel="noopener noreferrer">Subscribe <span class="price-cta-ico" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+            <ul>
+              <li><span class="price-check" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="m5 12.5 4.2 4.2L19 7.5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>More users and endpoints</li>
+              <li><span class="price-check" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="m5 12.5 4.2 4.2L19 7.5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Historical workload trends</li>
+              <li><span class="price-check" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="m5 12.5 4.2 4.2L19 7.5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Endpoint comparison</li>
+              <li><span class="price-check" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="m5 12.5 4.2 4.2L19 7.5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Team workspace access</li>
+            </ul>
+          </article>
+          <article class="price-card">
+            <div class="price-top">
+              <span class="price-badge">Enterprise</span>
+              <span class="price-ico" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4.5 16.5 7 8.2l3.6 3.4L12 6l1.4 5.6L17 8.2l2.5 8.3H4.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M5 19.5h14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span>
+            </div>
+            <div class="amount">Custom</div>
+            <p class="price-desc">Governance, audit history, and support for infrastructure planning.</p>
+            <a class="price-cta" href="quote.html">Get Started <span class="price-cta-ico" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+            <ul>
+              <li><span class="price-check" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="m5 12.5 4.2 4.2L19 7.5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Advanced access controls</li>
+              <li><span class="price-check" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="m5 12.5 4.2 4.2L19 7.5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Configuration audit history</li>
+              <li><span class="price-check" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="m5 12.5 4.2 4.2L19 7.5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Premium performance reporting</li>
+              <li><span class="price-check" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="m5 12.5 4.2 4.2L19 7.5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Planning consultation</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <img class="faq-bg" src="images/faq-bg.jpg" alt="">
+      <div class="container faq-inner">
+        <p class="chip"><i></i>FAQ</p>
+        <h2>Everything You Need to <span>Know</span></h2>
+        <div class="faq-list">
+          <details class="faq-item" open>
+            <summary>What is Quorvan? <span class="faq-plus" aria-hidden="true"></span></summary>
+            <p>Quorvan is a platform for managing inference endpoints, routing policies, and model-serving performance records.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How does a team get started? <span class="faq-plus" aria-hidden="true"></span></summary>
+            <p>Register model-serving endpoints, configure routing policies, and add available performance data.</p>
+          </details>
+          <details class="faq-item">
+            <summary>What performance metrics can Quorvan display? <span class="faq-plus" aria-hidden="true"></span></summary>
+            <p>Available metrics include latency, throughput, request volume, and error rates, depending on the data supplied or connected.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Can teams compare historical inference performance? <span class="faq-plus" aria-hidden="true"></span></summary>
+            <p>Yes. Teams can compare stored performance measurements across endpoints and reporting periods when sufficient historical data is available.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section home-contact" id="contact">
+      <div class="container">
+        <div class="section-head center">
+          <p class="kicker">
+            <span class="kicker-ico" aria-hidden="true">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M4 16.5 9 11l3.2 3.2L20 6.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 6.5h6v6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            Contact
+          </p>
+          <h2>Tell Us About Your Serving Environment</h2>
+        </div>
+        <div class="quote-wrap">
+          <aside class="quote-aside">
+            <p class="kicker">
+              <span class="kicker-ico" aria-hidden="true">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M4 16.5 9 11l3.2 3.2L20 6.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 6.5h6v6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              Get in Touch
+            </p>
+            <h2>We are ready to review your inference setup</h2>
+            <p>Share the endpoints you run, the routing questions you have, and the reports your team needs.</p>
+            <ul>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 6.5h16v11H4v-11Z" stroke="currentColor" stroke-width="1.8"/><path d="m4.5 7 7.5 6 7.5-6" stroke="currentColor" stroke-width="1.8"/></svg><a href="mailto:hello@quorvan.net">hello@quorvan.net</a></li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="1.8"/><path d="M4 12h16M12 4c2.2 2.4 3.3 5.1 3.3 8s-1.1 5.6-3.3 8c-2.2-2.4-3.3-5.1-3.3-8s1.1-5.6 3.3-8Z" stroke="currentColor" stroke-width="1.8"/></svg><a href="https://quorvan.net">quorvan.net</a></li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11Z" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="10" r="2.2" stroke="currentColor" stroke-width="1.8"/></svg><span class="contact-line"><small>Sri Lanka</small><span>No. 39, 6th floor, Hospital Road, Jaffna, Sri Lanka</span><a href="tel:+94212226385">+94 21 222 6385</a></span></li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11Z" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="10" r="2.2" stroke="currentColor" stroke-width="1.8"/></svg><span class="contact-line"><small>United States</small><span>Suite 325, 3rd Floor, 535 Mission Street, San Francisco, CA 94105, USA</span><a href="tel:+14155550164">+1 415-555-0164</a></span></li>
+            </ul>
+          </aside>
+          <form class="panel quote-form" id="contact-form" action="https://formspree.io/f/mkjjjokl" method="POST">
+            <p class="form-success" tabindex="-1">Thanks. Your inquiry was sent and is ready for the team to review.</p>
+            <p class="form-error" role="alert" hidden></p>
+            <input type="hidden" name="_subject" value="Quorvan website inquiry">
+            <label class="form-hp">Leave this field empty<input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label>
+            <div class="form-grid">
+              <label class="field"><span>Name</span><input type="text" name="name" required autocomplete="name"></label>
+              <label class="field"><span>Email</span><input type="email" name="email" required autocomplete="email"></label>
+              <label class="field"><span>Phone</span><input type="tel" name="phone" required autocomplete="tel"></label>
+              <label class="field"><span>Topic</span>
+                <select name="topic" required>
+                  <option value="">Select a topic</option>
+                  <option>Endpoint management</option>
+                  <option>Routing policies</option>
+                  <option>Performance reporting</option>
+                  <option>Enterprise governance</option>
+                  <option>Performance assessment</option>
+                </select>
+              </label>
+              <label class="field full"><span>Inquiry details</span><textarea name="message" required placeholder="Endpoints you serve, the routing rules you need, and the metrics you want to review."></textarea></label>
+              <div class="field full recaptcha-field">
+                <div class="g-recaptcha" data-sitekey="6Lc7ZAEuAAAAAOtiVbfgtaxIoxW3hxHxt-hvP_uD"></div>
+              </div>
+              <div class="field full"><button class="btn btn-green" type="submit">Send Inquiry <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" aria-label="Get a quote">
+      <div class="container band-inner">
+        <div class="band-copy">
+          <p class="kicker">
+            <span class="kicker-ico" aria-hidden="true">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M4 16.5 9 11l3.2 3.2L20 6.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 6.5h6v6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            Business Inquiry
+          </p>
+          <h2>Review Routing and Performance with Quorvan</h2>
+          <p>Bring the endpoints you run and the questions you have about latency, throughput, and reliability.</p>
+          <a class="btn btn-white" href="quote.html">Request a Briefing
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+        <img class="band-photo" src="images/cta-side.jpg" alt="Team reviewing performance charts across desktop displays">
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="logo" href="index.html"><img src="images/logo-light.png" alt="Quorvan"></a>
+        <p>Quorvan is a workspace for registering model-serving endpoints, keeping routing policies, and reviewing inference performance when the data is available.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Platform</a>
+        <a href="projects.html">Use Cases</a>
+        <a href="pricing.html">Plans</a>
+      </div>
+      <div class="footer-links">
+        <h4>Resources</h4>
+        <a href="index.html#faq">Help &amp; FAQ</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <div class="reach">
+          <a href="mailto:hello@quorvan.net"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 6.5h16v11H4v-11Z" stroke="currentColor" stroke-width="1.8"/><path d="m4.5 7 7.5 6 7.5-6" stroke="currentColor" stroke-width="1.8"/></svg>hello@quorvan.net</a>
+          <a href="https://quorvan.net"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="1.8"/><path d="M4 12h16M12 4c2.2 2.4 3.3 5.1 3.3 8s-1.1 5.6-3.3 8c-2.2-2.4-3.3-5.1-3.3-8s1.1-5.6 3.3-8Z" stroke="currentColor" stroke-width="1.8"/></svg>quorvan.net</a>
+        </div>
+        <article class="office">
+          <header><span>LK</span><strong>Quorvan Digital (Pvt) Ltd</strong></header>
+          <p>No. 39, 6th floor, Hospital Road, Jaffna, Sri Lanka</p>
+          <a href="tel:+94212226385">+94 21 222 6385</a>
+        </article>
+        <article class="office">
+          <header><span>US</span><strong>Quorvan Digital Inc.</strong></header>
+          <p>Suite 325, 3rd Floor, 535 Mission Street, San Francisco, CA 94105, USA</p>
+          <a href="tel:+14155550164">+1 415-555-0164</a>
+        </article>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2026 Quorvan. All rights reserved.</p>
+        <span class="footer-legal-links">
+          <a class="footer-legal" href="terms.html">Terms &amp; Conditions</a>
+          <a class="footer-legal" href="privacy.html">Privacy Policy</a>
+        </span>
+        <div class="social">
+          <a href="#" aria-label="Facebook"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M14.5 9H17V6h-2.5C11.6 6 11 7.8 11 9.4V11H9v3h2v7h3v-7h2.2l.8-3H14v-1.2c0-.5.2-.8.5-.8Z"/></svg></a>
+          <a href="#" aria-label="X"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M14.7 4h2.8l-6.1 7 7.2 9h-5.6l-4.4-5.7L6.2 20H3.4l6.5-7.5L3 4h5.7l4 5.2L14.7 4Zm-1 14.4h1.5L8.4 5.5H6.8l6.9 12.9Z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg width="12" height="12" viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="3.4" stroke="currentColor" stroke-width="1.8"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M6.7 9.2H4V20h2.7V9.2ZM5.3 4A1.6 1.6 0 1 0 5.3 7.2 1.6 1.6 0 0 0 5.3 4ZM20 20h-2.7v-5.6c0-1.6-.6-2.6-2-2.6-1 0-1.6.7-1.9 1.4-.1.2-.1.6-.1.9V20H10.6s.1-9.3 0-10.8h2.7v1.5c.4-.6 1.2-1.8 3.1-1.8 2.2 0 3.6 1.4 3.6 4.5V20Z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <dialog class="usecase-dialog" id="usecase-dialog" aria-labelledby="usecase-title">
+    <button type="button" class="usecase-close" data-close-usecase aria-label="Close">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    </button>
+    <div class="usecase-layout">
+      <img class="usecase-photo" alt="">
+      <div class="usecase-body">
+        <p class="usecase-tag"></p>
+        <h3 id="usecase-title"></h3>
+        <p class="usecase-summary"></p>
+        <div class="usecase-copy"></div>
+      </div>
+    </div>
+  </dialog>
+  <template id="usecase-endpoints">
+    <p>A serving setup rarely stays on one target. The same model may run in more than one environment, and different models may sit behind their own endpoints. Quorvan keeps those records together so a review does not start from a spreadsheet, a ticket, or a note in chat.</p>
+    <h4>What the registry keeps</h4>
+    <ul>
+      <li>Model identifiers for each serving target</li>
+      <li>The environment the endpoint belongs to</li>
+      <li>Endpoint details used to tell one target from another</li>
+      <li>Status records so the team can see which entries are current</li>
+    </ul>
+    <p>From here a team can register a new endpoint, update an existing one, and return to the same record when a routing policy or a performance review needs it.</p>
+  </template>
+  <template id="usecase-routing">
+    <p>A workload needs a written rule for where a request should go, which endpoint is preferred, and what happens when that target is not the one to use. Quorvan stores that policy with the endpoints it names, and keeps earlier versions so a change can be read later.</p>
+    <h4>What a policy records</h4>
+    <ul>
+      <li>Routing criteria for the workload</li>
+      <li>Endpoint priorities</li>
+      <li>Fallback preferences</li>
+      <li>Policy versions, so an earlier setting stays on record</li>
+    </ul>
+    <p>When someone asks what the routing rule was before a change, the answer is in the policy history rather than in a separate thread.</p>
+  </template>
+  <template id="usecase-analysis">
+    <p>Latency, throughput, request volume, and error rate only help if they can be read against the endpoint and the policy that produced them. Quorvan places the measurements that were supplied next to that configuration, so a variation can be traced to a specific target.</p>
+    <h4>What the review compares</h4>
+    <ul>
+      <li>Latency across the endpoints in view</li>
+      <li>Throughput for the same reporting window</li>
+      <li>Request volume</li>
+      <li>Error rates</li>
+    </ul>
+    <p>The review marks where the measurements differ and which area needs a closer look. Findings can sit beside the configuration they refer to.</p>
+  </template>
+  <template id="capability-endpoints">
+    <p>Endpoint management is the registry for the targets a team already serves. Each record names the model, the environment it runs in, and the details that distinguish one endpoint from another.</p>
+    <h4>What the registry keeps</h4>
+    <ul>
+      <li>Model identifiers for each serving target</li>
+      <li>The environment the endpoint belongs to</li>
+      <li>Endpoint details used to tell one target from another</li>
+      <li>Status records so the team can see which entries are current</li>
+    </ul>
+    <p>A later routing policy or performance review can return to the same record instead of starting from a separate list.</p>
+  </template>
+  <template id="capability-routing">
+    <p>A routing policy is the written rule for where a workload should go. Quorvan keeps that rule with the endpoints it names, including the preferred target and the fallback when that target is not the one to use.</p>
+    <h4>What a policy records</h4>
+    <ul>
+      <li>Routing criteria for the workload</li>
+      <li>Endpoint priorities</li>
+      <li>Fallback preferences</li>
+      <li>Policy versions, so an earlier setting stays on record</li>
+    </ul>
+    <p>When a rule changes, the earlier version remains available for the next review.</p>
+  </template>
+  <template id="capability-metrics">
+    <p>Performance metrics are the measurements a team can supply or connect: latency, throughput, request volume, and error rates. Quorvan organizes those readings across the endpoints they belong to.</p>
+    <h4>What the summary can show</h4>
+    <ul>
+      <li>Latency across the endpoints in view</li>
+      <li>Throughput for the same reporting window</li>
+      <li>Request volume</li>
+      <li>Error rates</li>
+    </ul>
+    <p>What appears depends on the data that was supplied. A metric with no reading stays absent rather than being filled in.</p>
+  </template>
+  <template id="usecase-history">
+    <p>A single reading shows the current window. A stored history shows whether that reading moved. When enough earlier data is available, teams can compare endpoints and reporting periods and use that record when they plan a change.</p>
+    <h4>What the history is used for</h4>
+    <ul>
+      <li>Comparison of stored measurements across endpoints</li>
+      <li>Comparison across reporting periods</li>
+      <li>A written assessment of what the measurements showed</li>
+      <li>Planning notes for a proposed optimization</li>
+    </ul>
+    <p>The comparison uses the data that was stored. If a period has no record, that gap stays visible instead of being filled in.</p>
+  </template>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script src="js/main.js?v=15"></script>
+  <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/6adf325e151b7b346c8b3fd5/1k5rtpgff';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+</body>
+</html>
