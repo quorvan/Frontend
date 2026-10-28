@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quorin X.1 - Quorvan</title>
-  <meta name="description" content="Quorin X.1 helps teams understand model-serving configurations, organize inference routing, and evaluate performance across AI workloads.">
+  <meta name="description" content="Quorin X.1 gives AI infrastructure teams one clear workspace for model endpoints, routing decisions, and inference performance.">
   <meta name="theme-color" content="#191919">
   <link rel="icon" href="images/favicon.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=58">
+  <link rel="stylesheet" href="css/style.css?v=70">
 </head>
 <body>
   <div class="topbar">
@@ -35,44 +35,101 @@
         <a href="services.html">Platform</a>
         <a href="projects.html">Use Cases</a>
         <a href="pricing.html">Plans</a>
-        <a class="btn btn-green btn-sm" href="product.html">Quorin X.1</a>
+        <a class="btn btn-green btn-sm" href="/product">Quorin X.1</a>
       </nav>
-      <a class="btn btn-green btn-sm" href="product.html">Quorin X.1</a>
+      <a class="btn btn-green btn-sm" href="/product">Quorin X.1</a>
       <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
     </div>
   </header>
   <main>
-    <section class="page-hero">
+    <section class="page-hero product-hero">
       <div class="container">
+        <p class="product-hero-kicker"><span></span> The inference operations workspace</p>
         <h1>Quorin X.1</h1>
+        <p class="product-hero-copy">Make every serving decision easier to see. Bring endpoints, routing policies, and performance records together so your team can move from scattered details to a clearer operating picture.</p>
+        <div class="product-hero-actions">
+          <a class="btn btn-green" href="http://client.quorvan.net" target="_blank" rel="noopener noreferrer">Open Quorin X.1
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a class="btn btn-ghost" href="#capabilities">Explore the platform</a>
+        </div>
         <p class="crumbs"><a href="index.html">Home</a> / Quorin X.1</p>
       </div>
     </section>
-    <section class="section">
+    <section class="section product-intro" id="capabilities">
+      <div class="container">
+        <div class="section-head product-section-head">
+          <div><p class="chip"><i></i> A calmer way to run inference operations</p><h2>See the whole serving picture.</h2></div>
+          <p class="lead">Quorin X.1 gives infrastructure and MLOps teams a shared place to keep track of what is serving, where requests should go, and how the workload is performing.</p>
+        </div>
+        <div class="product-value-grid">
+          <article class="product-value-card product-value-featured"><span class="product-card-index">01 / ORGANIZE</span><h3>Know what is in your serving fleet.</h3><p>Keep model endpoints, environments, and status details together. Give the team a reliable starting point when a deployment changes or a question comes in.</p><span class="product-card-note">A shared endpoint picture</span></article>
+          <article class="product-value-card"><span class="product-card-index">02 / DECIDE</span><h3>Make routing intent visible.</h3><p>Document preferred endpoints, selection criteria, and fallback plans so routing choices are understandable and easier to review.</p><span class="product-card-note">Policies with context</span></article>
+          <article class="product-value-card"><span class="product-card-index">03 / LEARN</span><h3>Turn measurements into next steps.</h3><p>Bring available latency, throughput, and reliability observations into the same conversation as the endpoints and policies they describe.</p><span class="product-card-note">Performance you can discuss</span></article>
+        </div>
+      </div>
+    </section>
+    <section class="section product-workflow-section">
       <div class="container">
         <div class="section-head center">
-          <p class="chip"><i></i>Product</p>
-          <h2>Quorin X.1</h2>
-          <p class="lead">Quorvan helps teams understand model-serving configurations, organize inference routing, and evaluate performance across AI workloads.</p>
+          <p class="chip"><i></i> From setup to review</p>
+          <h2>A workflow your team can follow.</h2>
+          <p class="lead">Keep everyday serving operations connected, from registering a target to learning from how it performs.</p>
         </div>
         <div class="process-grid">
           <article class="step-card">
-            <h3>Request Routing</h3>
-            <p>Manage routing criteria, endpoint priorities, and fallback strategies.</p>
-            <div class="step-foot"><span class="step-pill">STEP</span><span class="step-num">01</span></div>
+            <h3>Register the endpoints</h3>
+            <p>Capture the models, serving environments, and endpoint details your team needs to find the right target.</p>
+            <div class="step-foot"><span class="step-pill">GET ORGANIZED</span><span class="step-num">01</span></div>
           </article>
           <article class="step-card">
-            <h3>Model Serving</h3>
-            <p>Understand model deployment configurations and serving environments.</p>
-            <div class="step-foot"><span class="step-pill">STEP</span><span class="step-num">02</span></div>
+            <h3>Describe the route</h3>
+            <p>Keep priorities, routing criteria, and fallback preferences close to the endpoints they affect.</p>
+            <div class="step-foot"><span class="step-pill">MAKE IT CLEAR</span><span class="step-num">02</span></div>
           </article>
           <article class="step-card">
-            <h3>Performance Optimization</h3>
-            <p>Evaluate latency, throughput, and workload metrics to identify bottlenecks.</p>
+            <h3>Review what happened</h3>
+            <p>Compare the performance information available to your team and use it to guide the next operational decision.</p>
             <div class="step-foot"><span class="step-pill">STEP</span><span class="step-num">03</span></div>
           </article>
         </div>
       </div>
+    </section>
+    <section class="section product-audience-section">
+      <div class="container product-audience-layout">
+        <div class="product-audience-copy">
+          <p class="chip"><i></i> Made for teams in the loop</p>
+          <h2>One view. Better conversations.</h2>
+          <p class="lead">Quorin X.1 helps the people responsible for dependable AI serving share context without making every decision start from scratch.</p>
+          <a class="link-arrow" href="http://client.quorvan.net" target="_blank" rel="noopener noreferrer">Explore Quorin X.1 <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="product-audience-list">
+          <article><span>01</span><div><h3>AI infrastructure teams</h3><p>Keep track of serving targets, deployment environments, and operational changes.</p></div></article>
+          <article><span>02</span><div><h3>MLOps and platform teams</h3><p>Make routing policy intent and endpoint ownership easier to share across workflows.</p></div></article>
+          <article><span>03</span><div><h3>Performance and reliability teams</h3><p>Bring measurements and historical context into conversations about latency and service quality.</p></div></article>
+        </div>
+      </div>
+    </section>
+    <section class="section product-roadmap-section">
+      <div class="container">
+        <div class="section-head">
+          <div><p class="chip"><i></i> The road ahead</p><h2>From operational clarity to accelerated scale.</h2></div>
+          <p class="lead">Quorin X.1 is growing toward a deeper model-serving lifecycle. The roadmap builds from the workspace teams use today toward more connected optimization and GPU-backed scale.</p>
+        </div>
+        <div class="product-roadmap">
+          <article class="roadmap-card roadmap-current"><span class="roadmap-status">TODAY</span><span class="roadmap-step">01</span><h3>Build the operational foundation</h3><p>Register endpoints, manage routing policies, and review available performance records in one workspace.</p><span class="roadmap-tags">Endpoints <i>·</i> Policies <i>·</i> Performance</span></article>
+          <article class="roadmap-card"><span class="roadmap-status">NEXT</span><span class="roadmap-step">02</span><h3>Make serving performance easier to tune</h3><p>Grow toward richer benchmarking and optimization workflows that help teams compare configurations and understand trade-offs.</p><span class="roadmap-tags">Benchmarking <i>·</i> Optimization</span></article>
+          <article class="roadmap-card"><span class="roadmap-status">FUTURE DIRECTION</span><span class="roadmap-step">03</span><h3>Connect to accelerated serving</h3><p>Explore NVIDIA SDK integrations, GPU-supported model training, and higher-scale serving as the platform advances.</p><span class="roadmap-tags">NVIDIA ecosystem <i>·</i> GPU scale</span></article>
+        </div>
+        <div class="product-sdk-note">
+          <div><span class="product-sdk-label">PLANNED NVIDIA SDK DIRECTION</span><p>A scannable look at the technologies being considered as Quorin X.1 evolves.</p></div>
+          <div class="product-sdk-list"><span><strong>TensorRT-LLM</strong><small>Compilation, FP8/FP16, optimized attention, and batching</small></span><span><strong>Triton Inference Server</strong><small>Multi-model serving, scheduling, routing, and fallback</small></span><span><strong>NVIDIA NIM</strong><small>Optimized model containers with consistent APIs</small></span></div>
+          <p class="product-sdk-footnote">These are roadmap directions, not current Quorin X.1 integrations. Future capabilities will depend on product development and validation.</p>
+        </div>
+      </div>
+    </section>
+    <section class="product-final-cta">
+      <div class="container product-final-cta-inner"><div><p class="product-hero-kicker"><span></span> Your serving picture, in one place</p><h2>See what Quorin X.1 can bring into focus.</h2></div><a class="btn btn-green" href="http://client.quorvan.net" target="_blank" rel="noopener noreferrer">Open the live product <span aria-hidden="true">↗</span></a></div>
     </section>
   </main>
   <footer class="footer">
